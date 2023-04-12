@@ -4,7 +4,9 @@
   </head>
   <body>
     <script>
-      window.location.href  = "https://zibsin.tistory.com";
+      var ref_url = new URLSearchParams(location.search);
+      write.document(ref_url);
+      // window.location.href  = "https://zibsin.tistory.com";
     </script>
   </body>
 </html>
