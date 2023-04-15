@@ -1,2 +1,4 @@
-RewriteEngine on
-RewriteRule(.*) https://zibsin.tistory.com/$1 [R=301,L]
+<ifmodule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule(.*) https://zibsin.tistory.com/$1 [R=301,L]
+</ifmodule>
